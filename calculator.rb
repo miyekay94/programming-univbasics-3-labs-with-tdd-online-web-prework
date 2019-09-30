@@ -7,3 +7,5 @@ it "contains a local variable called first_number that is assigned to a number" 
 end
 
 first_number = get_variable_from_file('.calculator.rb',"first_number")
+
+expect(second_number).not_to equal(0)
