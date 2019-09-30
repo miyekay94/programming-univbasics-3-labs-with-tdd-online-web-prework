@@ -1,14 +1,11 @@
 # Add your variables here
 
-it "contains a local variable called first_number that is assigned to a number" do
-  first_number = get_variable_from_file('./calculator.rb', "first_number")
- 
-  expect(first_number).to be_an(Integer).or be_a(Float)
+first_number = 4
+second_number = 4
 
-second_number = get_variable_from_file('./calculator.rb', "second_number")
-
-expect(second_number). to be_an(Integer). or be_a(Float)
-
-end
+sum = first_number + second_number
+difference = first_number - second_number
+product = first_number * second_number
+quotient = first_number / second_number
 
 
